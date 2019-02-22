@@ -1,0 +1,22 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+canvas {
+	display: block;
+	position: absolute;
+	touch-action: none;
+	width: 100%;
+	height: 100%;
+}
+
+#fps {
+	position: absolute;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none; 
+	right:0;
+	background-color:rgba(10,21,42,0.3);
+}
